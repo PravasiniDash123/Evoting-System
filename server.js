@@ -13,8 +13,8 @@ app.use(cors());
 
 const connection = mysql.createConnection({
   host: 'localhost',
-  user: 'root',
-  password: 'Root', // Replace with your MySQL password
+  user: xyz,
+  password:element , // Replace with your MySQL password
   database: 'Voting'
 });
 
@@ -392,6 +392,7 @@ app.listen(port, () => {
 
 
     
+
 
 
 
